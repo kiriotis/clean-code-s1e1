@@ -22,17 +22,17 @@ body {
     text-align: center;
   }
 }
-.main-page {
+.hero-page {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.main-page__add-element__task-row__task {
+.hero-page__add-element__task-row__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.main-page__add-element__task-row {
+.hero-page__add-element__task-row {
   display: flex;
 }
 ul {
@@ -131,7 +131,7 @@ input[type="text"] {
 }
 
 /* Completed */
-#main-page__completed-tasks label {
+#hero-page__completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
@@ -141,11 +141,11 @@ li input[type="text"] {
   display: none;
 }
 
-.main-page__tasks__edit-mode input[type="text"] {
+.hero-page__tasks__edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.main-page__tasks__edit-mode label {
+.hero-page__tasks__edit-mode label {
   display: none;
 }
